@@ -1,0 +1,7 @@
+- job:
+    name: JJB_dsl_conf_job
+    description: 'Calling dsl groovy script'
+    project-type: freestyle
+    builders:
+      - dsl:
+          target: 'GitProject.groovy'

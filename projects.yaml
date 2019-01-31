@@ -1,0 +1,9 @@
+- project:
+    name: project-example
+    jobs:
+        - '{name}_job':
+            name: mvnVersion
+            command: mvn --version
+        - '{name}_job':
+            name: gitVersion
+            command: git --version
